@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Note App</title>
+
+    <link rel="icon" href="favicon.ico" sizes="48x48" />
+  </head>
+
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+
+    <main>
+      <div class="container">
+        <section id="note" class="note">
+          <div id="formControl" class="formControl">
+            <add-note-form></add-note-form>
+          </div>
+          <div id="searchBarContainer" class="search-bar-container">
+            <search-bar></search-bar>
+          </div>
+          <div id="noteListContainer" class="note-list-container">
+            <note-search-error></note-search-error>
+            <note-list></note-list>
+            <note-list-archived></note-list-archived>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <footer-bar></footer-bar>
+    </footer>
+  </body>
+</html>
